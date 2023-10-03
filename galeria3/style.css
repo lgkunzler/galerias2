@@ -1,0 +1,247 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { 
+        display: grid;
+        grid-area: 1 / 1 / 2 / 2;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(imgs/img1.png);
+    }
+
+    .div2 { 
+        display: grid;
+        grid-area: 2 / 3 / 3 / 4;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(imgs/img2.png);
+    }
+    
+    .div3 { 
+        display: grid;
+        grid-area: 3 / 2 / 4 / 3;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-image: url(imgs/img3.png);
+    }
+    
+    .div4 { 
+        display: grid;
+        grid-area: 3 / 4 / 5 / 6; 
+        background-image: url(imgs/img4.png);
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div5 { 
+        display: grid;
+        grid-area: 5 / 8 / 6 / 9; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(imgs/img5.png);
+    }
+    
+    .div6 { 
+        display: grid;
+        grid-area: 1 / 10 / 3 / 12; 
+        background-image: url(imgs/img6.png);
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div7 { 
+        grid-area: 2 / 9 / 3 / 10; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(imgs/img7.png);
+    }
+    
+    .div8 { 
+        grid-area: 2 / 7 / 3 / 8;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-image: url(imgs/img8.png);
+    }
+    
+    .div9 { 
+        grid-area: 4 / 7 / 5 / 8;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-image: url(imgs/img9.png);
+    }
+    
+    .div10 { 
+        grid-area: 6 / 6 / 7 / 7;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-image: url(imgs/img10.png);
+    }
+    
+    .div11 { 
+        grid-area: 5 / 3 / 6 / 4; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(imgs/img11.png);
+    }
+    
+    .div12 { 
+        grid-area: 6 / 1 / 7 / 2; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div13 { 
+        grid-area: 4 / 1 / 5 / 2; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div14 { 
+        grid-area: 1 / 5 / 2 / 6; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div15 { 
+        grid-area: 6 / 4 / 7 / 5;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    
+    .div16 { 
+        grid-area: 3 / 9 / 4 / 10; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div17 { 
+        grid-area: 4 / 11 / 5 / 12; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div18 { 
+        grid-area: 1 / 8 / 2 / 9; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div19 { 
+        grid-area: 2 / 6 / 3 / 7; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div20 { 
+        grid-area: 1 / 3 / 2 / 4; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div21 { 
+        grid-area: 6 / 8 / 7 / 9; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div22 { 
+        grid-area: 3 / 8 / 4 / 9; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div23 { 
+        grid-area: 3 / 10 / 4 / 11; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div24 { 
+        grid-area: 5 / 9 / 6 / 10; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div25 { 
+        grid-area: 5 / 6 / 6 / 7; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div26 { 
+        grid-area: 5 / 2 / 6 / 3; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div27 { 
+        grid-area: 5 / 10 / 7 / 12; 
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(imgs/img27.png);
+    }
